@@ -58,6 +58,8 @@ class FlutterBoostAppState extends State<FlutterBoostApp> {
 
   final List<BoostContainer> _containers = <BoostContainer>[];
 
+  List<BoostContainer> get allContainers => _containers;
+
   /// All interceptors from widget
   List<BoostInterceptor> get interceptors => widget.interceptors;
 
